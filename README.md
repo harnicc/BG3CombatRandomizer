@@ -1,3 +1,4 @@
+# READ BEFORE ANYTHING!!!!
 # 🎲 BG3 Combat Randomizer
 
 A chaotic and highly customizable combat randomizer mod for **Baldur's Gate 3**, powered by BG3 Script Extender. Randomize enemy stats, spells, equipment, transformations, clones, elite variants, and much more!
