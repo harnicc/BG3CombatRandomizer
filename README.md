@@ -25,10 +25,11 @@ After installing the mod and loading a save file, a configuration file named `Co
 ```
 *(You can copy and paste this path directly into Windows Search / Explorer).*
 
-> 💡 **Can't find the folder?**
+> [!TIP]
+> **Can't find the folder?**
 > 1. Open the **Larian Launcher**.
 > 2. Click the **Settings icon** (⚙️) in the bottom-left corner.
-> 3. Scroll down and click **Open profile folder**.
+> 3. Scroll down and click <kbd>Open profile folder</kbd>.
 > 4. Navigate to the `Script Extender` directory inside.
 
 ---
@@ -37,10 +38,11 @@ After installing the mod and loading a save file, a configuration file named `Co
 
 The config file **CAN** be edited while the game is running:
 
-* **Manual Reload:** Press **Ping** anywhere in-game (the button next to the minimap that marks a spot) to reload your settings instantly.
+* **Manual Reload:** Press <kbd>Ping</kbd> anywhere in-game (the button next to the minimap that marks a spot) to reload your settings instantly.
 * **Automatic Reload:** Set `AutomaticallyReadConfig = 1` to let the game check and update settings every few seconds.
 
-> ⚠️ **Warning:** Enabling `AutomaticallyReadConfig` may cause rare crashes when loading saves. Manual reloading via **Ping** is recommended for maximum stability.
+> [!WARNING]
+> Enabling `AutomaticallyReadConfig` may cause rare crashes when loading saves. Manual reloading via <kbd>Ping</kbd> is recommended for maximum stability.
 
 ---
 
@@ -96,7 +98,8 @@ The config file **CAN** be edited while the game is running:
 * `EnemyOnlyDuplication` `(0 or 1)` — `1` restricts cloning strictly to enemies.
 * `AllyOnlyDuplication` `(0 or 1)` — `1` restricts cloning strictly to allies *(Incompatible with EnemyOnlyDuplication)*.
 
-> 💡 **Cloning Notes:** Clones spawn slightly after combat starts to prevent crashes. They inherit equipment before receiving separate randomizations. Clones clear automatically when combat ends.
+> [!NOTE]
+> **Cloning Behavior:** Clones spawn slightly after combat starts to prevent crashes. They inherit equipment before receiving separate randomizations. Clones clear automatically when combat ends.
 
 ---
 
@@ -147,7 +150,8 @@ Chance for NPCs to turn into powerful Elite variants with custom visual effects 
 * `GiveRandomSpellToParty` `(0 - 100%)` — Gives party members a temporary random spell at the start of combat (removed post-combat).
 * `TransformPartyMembers` `(0 - 100%)` — Randomly transforms party members into random NPCs during combat.
 
-> 🛠️ **Stuck in Transformation?**
+> [!TIP]
+> **Stuck in Transformation?**
 > If a party member remains transformed after combat, open the Script Extender console and run:
 > ```lua
 > RemoveTransforms(GetHostCharacter())
