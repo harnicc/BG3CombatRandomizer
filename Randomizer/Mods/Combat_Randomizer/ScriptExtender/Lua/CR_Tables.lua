@@ -6713,6 +6713,7 @@ CR_Passives = {
     "DivineHealth",
     "HolyRebuke"
 }
+
 CombatRandomizer_Epithets = {
     "The Colorful",
     "The Mind Bender",
@@ -6972,29 +6973,34 @@ CombatRandomizer_Epithets = {
     "The Oracle",
     "The Reliable"
 }
+
 RaidBossesTable = {
     "LOW_Slayer_Orin_ced6bfeb-8f6f-47d0-943f-77833f643318",
     "CrabFamiliar_Summon_48cda2b7-04bc-40c2-81f5-1dddabcd15ab",
     "[WIP] Humans_Female_Strong_NightSong_9671ecbb-4030-48ff-b63e-f138e988835f",
     "CINE_S_WYR_AnsurGhost_dc2cbb9b-d6d6-438b-8fad-cb6fb1b2f87e"
 }
+
 RaidBossSpellsTable_DameAylin = {
     "Zone_MAG_ZephyrBreak",
     "Zone_MAG_Automaton_Human_Steelwatcher_HellfireCleave",
     "Target_MAG_WeaponAction_SearingBlood",
     "Target_LOW_Raphael_FlameFury"
 }
+
 RaidBossSpellsTable_MuffinDragon = {
     "Projectile_LightningBreath_Dragon_Skeletal",
     "Projectile_LightningBreath_Dragon_Skeletal",
     "Projectile_LightningBreath_Dragon_Skeletal",
     "Projectile_SuperNova_Dragon_Skeletal"
 }
+
 RaidBossSpellsTable_Muffin = {
     "Projectile_ChainLightning",
     "Zone_LightningBolt",
     "Target_CallLightning"
 }
+
 CR_EliteTypes = {
     "Blazing",
     "Glacial",
@@ -7004,6 +7010,7 @@ CR_EliteTypes = {
     "Volatile",
     "Leeching"
 }
+
 CR_EquipmentSlots = { --does this need to be a table? not really tbh
     "Amulet",
     "Boots",
